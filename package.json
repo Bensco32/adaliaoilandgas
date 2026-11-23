@@ -1,0 +1,37 @@
+{
+  "name": "adalia-oil-and-gas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "hash-admin-password": "node -e \"const crypto=require('crypto');const p=process.argv[1]||'';const salt=crypto.randomBytes(16).toString('base64');console.log('scrypt$'+salt+'$'+crypto.scryptSync(p,Buffer.from(salt,'base64'),32).toString('base64'));\"",
+    "health": "node -e \"fetch('http://localhost:3000/health').then(async r=>console.log(r.status, await r.text())).catch(e=>console.log('ERR', e.message))\""
+  },
+  "engines": {
+    "node": "^20.9.0 || >=22"
+  },
+  "dependencies": {
+    "framer-motion": "^12.0.0",
+    "lucide-react": "^0.469.0",
+    "next": "^15.1.0",
+    "nodemailer": "^10.6.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}

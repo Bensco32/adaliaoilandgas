@@ -1,0 +1,26 @@
+const BASE = "http://127.0.0.1:3100";
+(async () => {
+  const sitemap = await fetch(BASE + "/sitemap.xml").then((r) => r.text());
+  const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  console.log("sitemap urls:", urls.length);
+  console.log(urls.slice(0, 6).join("\n"));
+  console.log("sitemap has admin?", urls.some((u) => u.includes("/admin")), " has compliance?", urls.some((u) => u.includes("/compliance")), " has cookie-policy?", urls.some((u) => u.includes("cookie-policy")));
+  const robots = await fetch(BASE + "/robots.txt").then((r) => r.text());
+  console.log("robots:", robots.replace(/\n/g, " | "));
+  const contact = await fetch(BASE + "/contact").then((r) => r.text());
+  console.log("contact has Phone field:", contact.includes("Phone"));
+  console.log("contact has subject input:", contact.includes("adalia-subject"));
+  console.log("contact has division select:", contact.includes("adalia-division"));
+  const about = await fetch(BASE + "/about").then((r) => r.text());
+  console.log("about has management section:", about.includes("MANAGEMENT &amp; LEADERSHIP") || about.includes("MANAGEMENT & LEADERSHIP"));
+  console.log("about has objectives:", about.includes("CORPORATE OBJECTIVES"));
+  const compliance = await fetch(BASE + "/compliance").then((r) => r.text());
+  console.log("compliance has overview:", compliance.includes("COMPLIANCE STATUS OVERVIEW"));
+  console.log("compliance has cert title:", compliance.includes("Certificate of Incorporation"));
+  const hse = await fetch(BASE + "/hse").then((r) => r.text());
+  console.log("hse has policies section:", hse.includes("HSE POLICIES &amp; PROCEDURES") || hse.includes("HSE POLICIES & PROCEDURES"));
+  const head = await fetch(BASE + "/contact").then(async (r) => (await r.text()).match(/<head>([\s\S]*?)<\/head>/)?.[1]);
+  console.log("contact head has OG:", Boolean(head?.includes('property="og:title"')));
+  console.log("contact head has canonical:", Boolean(head?.includes('rel="canonical"')));
+  console.log("head has CSP:", Boolean(head?.includes("Content-Security-Policy")) || (await fetch(BASE + "/").then((r) => r.headers.get("content-security-policy") !== null)));
+})();

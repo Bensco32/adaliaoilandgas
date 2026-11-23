@@ -1,0 +1,83 @@
+# ADALIA OIL AND GAS LTD — Render production deployment (read first)
+#
+# Recommended service type: **Web Service** (Runtime: Node.js).
+# No PostgreSQL needed — the site uses a JSON data store (see
+# RENDER_DEPLOYMENT_GUIDE.md §6). A Persistent Disk is recommended to keep
+# uploaded documents, the settings store, and admin sessions across deploys
+# and restarts.
+#
+# IMPORTANT:
+# - All `env:` values below are placeholders — you must set the real ones in
+#   the Render dashboard.
+# - Never commit the real `ADMIN_PASSWORD_HASH` or secrets here.
+# - Custom domains: add both `adaliaoilandgasltd.com` and `www.adaliaoilandgasltd.com`
+#   as domains in Render (it redirects apex → primary; make the apex the
+#   primary if you prefer the bare domain).
+
+services:
+  - type: web
+    name: adalia-oil-and-gas-ltd
+    runtime: node
+    plan: standard
+    branch: main
+    # Build command (Render runs this before starting the service):
+    buildCommand: npm install && npm run build
+    # Start command (Render runs this after building):
+    startCommand: npm start
+    # Persistent disk: mount a Managed Disk and point ADALIA_DATA_DIR at it.
+    disk:
+      type: persistent
+      name: adalia-oil-and-gas-ltd-data
+      path: /var/www/adalia/data
+      sizeGB: 1
+    # Primary + secondary domains (both optional)
+    domains:
+      - adaliaoilandgasltd.com
+      - www.adaliaoilandgasltd.com
+    # Required environment variables (values must be set in the Render dashboard,
+    # not in this file). See RENDER_DEPLOYMENT_GUIDE.md for where to obtain them.
+    envVars:
+      # Render sets NODE_ENV=production automatically for web services, but
+      # we set it explicitly so it is guaranteed.
+      - key: NODE_ENV
+        value: production
+      # Must match the Mounted Persistent Disk path (see disk.path above).
+      - key: ADALIA_DATA_DIR
+        value: /var/www/adalia/data
+      - key: ADALIA_DOCUMENTS_DIR
+        value: /var/www/adalia/data/documents
+      # Admin console credentials — MUST be configured in Render:
+      #   Generate a hash: npm run hash-admin-password -- "<strong-admin-password>"
+      - key: ADMIN_USERNAME
+        value: admin
+      - key: ADMIN_PASSWORD_HASH
+        sync: false
+      # Production contact email (verified before publishing contact details):
+      - key: CONTACT_TO_EMAIL
+        value: your-verified-email@example.com
+      # SMTP (recommended for production; use an App Password for Gmail):
+      - key: SMTP_HOST
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: SMTP_FROM
+        value: your-verified-email@example.com
+      # WhatsApp Cloud API (optional — contact form offers a fallback link):
+      - key: WHATSAPP_ACCESS_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: WHATSAPP_NUMBER
+        value: 08133744562  # MUST be the verified official telephone number
+      # AI assistant API key (optional — retrieval works without it):
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      # Public site URL (used in metadata, sitemap, robots, OG):
+      - key: NEXT_PUBLIC_SITE_URL
+        value: https://adaliaoilandgasltd.com

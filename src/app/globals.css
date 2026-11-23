@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #071a33;
+  --navy-2: #102c4f;
+  --gold: #d5a63c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
+
+/* --------------------------------------------------------------------------
+   Gallery — Android/mobile mode: only the first 3 pictures are visible until
+   the user clicks "See all" (the grid gets `gallery-expanded` then).
+   Pure CSS so nothing is visible before hydration on mobile.
+   -------------------------------------------------------------------------- */
+@media (max-width: 639px) {
+  .gallery-grid:not(.gallery-expanded) button:nth-of-type(n + 4) {
+    display: none;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .gold-text {
+    background: linear-gradient(135deg, #d5a63c 0%, #f1d58a 50%, #b88c2e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Why Choose Adalia — scroll-driven card entrance
+   --why-progress is set from the section's scroll progress (0 -> 1) in JS.
+   -------------------------------------------------------------------------- */
+@media (min-width: 640px) {
+  .why-choose-card {
+    --why-dx: var(--dx3, 0px);
+    --why-dy: var(--dy3, 0px);
+    opacity: var(--why-progress, 0);
+    transform: translate3d(
+      calc(var(--why-dx) * (1 - var(--why-progress, 0))),
+      calc(var(--why-dy) * (1 - var(--why-progress, 0))),
+      0
+    );
+    will-change: transform, opacity;
+  }
+}
+
+/* Two-column tablet layout: left column enters from the left, right from the right. */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .why-choose-card {
+    --why-dx: var(--dx2, 0px);
+    --why-dy: var(--dy2, 0px);
+  }
+}
+
+/* Mobile: keep the original card flow, no sticky scroll area, no sideways movement. */
+@media (max-width: 639px), (prefers-reduced-motion: reduce) {
+  .why-choose-stage {
+    height: auto !important;
+    overflow-x: visible !important;
+  }
+
+  .why-choose-sticky {
+    position: static !important;
+    height: auto !important;
+  }
+
+  .why-choose-card {
+    transform: translate3d(0, 20px, 0) !important;
+    opacity: 0 !important;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    will-change: auto;
+  }
+
+  .why-choose-card.is-visible {
+    transform: translate3d(0, 0, 0) !important;
+    opacity: 1 !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .why-choose-card {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

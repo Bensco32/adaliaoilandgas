@@ -1,0 +1,632 @@
+{
+  "version": 1,
+  "company": {
+    "name": "ADALIA OIL AND GAS LTD",
+    "slogan": "Driven by Excellence. Powering Energy.",
+    "foundation": "Built on faith, integrity and excellence.",
+    "website": "http://www.adaliaoilandgasltd.com",
+    "address": "",
+    "phone": "",
+    "email": "",
+    "rcNumber": "",
+    "addressRequiresVerification": true,
+    "phoneRequiresVerification": true,
+    "emailRequiresVerification": true,
+    "rcNumberRequiresVerification": true,
+    "addressVerified": false,
+    "phoneVerified": false,
+    "emailVerified": false,
+    "rcNumberVerified": false,
+    "social": {
+      "whatsapp": "",
+      "instagram": "",
+      "facebook": ""
+    },
+    "about": "Adalia Oil and Gas Ltd is a full-capacity indigenous energy group operating across the entire oil and gas value chain - from drilling to crude lifting, gas and petroleum distribution.",
+    "about2": "We deliver safe, reliable and world-class energy solutions to clients in Nigeria and international markets, with a strong focus on quality, transparency and timely delivery.",
+    "aboutLong": [
+      "Our story is one of steady growth built on faith, integrity and an unwavering commitment to excellence. From a focused service provider, Adalia has grown into a full-capacity indigenous energy group able to support clients across the entire oil and gas value chain - from the first borehole to the final delivery of petroleum products to market.",
+      "We work through four complementary divisions. Adalia Drilling Services supports onshore and offshore drilling programmes with well drilling, completion and workover, intervention and testing, equipment supply and mud logging. Adalia Crude Lifting, Marine & Logistics moves crude from production facilities to terminals and international markets through lifting, evacuation, vessel chartering, offshore supply and storage operations.",
+      "Adalia Gas supplies LPG, CNG and LNG for industrial, commercial and domestic applications, alongside gas plant installation and maintenance, filling, reticulation and pipeline support. Adalia Petroleum Supply procures and distributes PMS, AGO, DPK, base oil and lubricants through bulk supply and nationwide distribution.",
+      "That breadth allows us to serve as a single, accountable partner. Instead of coordinating several separate contractors, clients can rely on one group with the technical depth, logistical reach and commercial discipline to deliver integrated solutions - safely, on time and at competitive prices.",
+      "Safety and responsibility are built into the way we operate. Our health, safety and environment commitment applies to every division: safe handling, safe transportation and environmentally responsible operations, supported by risk management, personnel protection and continuous operational excellence. We invest in our people and maintain a culture in which every team member is empowered to stop any task that is not safe.",
+      "We are equally committed to the communities and partners we work with. As an indigenous group, we prioritise local participation, transparent dealings and lasting value for host communities. We welcome strategic partnerships with local and international organisations that share our standards and our long-term view of the energy industry.",
+      "Looking ahead, Adalia continues to build capacity, deepen expertise and widen its reach. Our ambition is to remain a trusted African energy group - transforming the industry through excellence, innovation and sustainable growth while powering the communities and economies we serve."
+    ],
+    "vision": "To be a leading African energy group, transforming the oil and gas industry through excellence, innovation and sustainable growth.",
+    "mission": "To deliver world-class drilling, crude lifting, gas and petroleum services - safely, on time and at competitive prices - while creating lasting value for our clients, partners and host communities.",
+    "hse": "At Adalia, safety is our first priority. We operate in line with international HSE standards, ensuring safe handling, safe transportation and environmentally responsible operations across all our divisions.",
+    "objectives": [
+      "To deliver safe, reliable and world-class energy solutions across the oil and gas value chain.",
+      "To maintain an organisational culture of integrity, excellence and innovation, with safety and quality prioritised in every operation.",
+      "To build long-term value for our clients, partners and host communities through technical depth, operational discipline and transparent dealing.",
+      "To invest in our workforce, capacity and the communities we serve so the group grows sustainably."
+    ],
+    "management": [],
+    "coreValues": [
+      "Safety First.",
+      "Integrity",
+      "Excellence",
+      "Reliability",
+      "Innovation."
+    ]
+  },
+  "services": [
+    {
+      "id": "svc-mwrzuc03-7aed1bdf",
+      "title": "Onshore and Offshore Drilling Support.",
+      "division": "drilling-services",
+      "description": "Onshore and Offshore Drilling Support. under the ADALIA DRILLING SERVICES division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/workspace.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc03-068b5987",
+      "title": "Well Drilling, Completion and Workover.",
+      "division": "drilling-services",
+      "description": "Well Drilling, Completion and Workover. under the ADALIA DRILLING SERVICES division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/workspace.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc03-05d5ed2a",
+      "title": "Well Intervention and Well Testing.",
+      "division": "drilling-services",
+      "description": "Well Intervention and Well Testing. under the ADALIA DRILLING SERVICES division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/workspace.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-9e4bb981",
+      "title": "Drilling Equipment Supply and Maintenance.",
+      "division": "drilling-services",
+      "description": "Drilling Equipment Supply and Maintenance. under the ADALIA DRILLING SERVICES division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/workspace.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-5dc8ee5b",
+      "title": "Mud Logging and Technical Support.",
+      "division": "drilling-services",
+      "description": "Mud Logging and Technical Support. under the ADALIA DRILLING SERVICES division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/workspace.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-a57a368e",
+      "title": "Crude Oil Lifting and Trading.",
+      "division": "crude-lifting-marine-logistics",
+      "description": "Crude Oil Lifting and Trading. under the ADALIA CRUDE LIFTING, MARINE & LOGISTICS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Rigs.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-aadbd3d4",
+      "title": "Crude Evacuation and Transportation to Any Location.",
+      "division": "crude-lifting-marine-logistics",
+      "description": "Crude Evacuation and Transportation to Any Location. under the ADALIA CRUDE LIFTING, MARINE & LOGISTICS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Rigs.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-a688e21a",
+      "title": "Vessel Chartering and Marine Support.",
+      "division": "crude-lifting-marine-logistics",
+      "description": "Vessel Chartering and Marine Support. under the ADALIA CRUDE LIFTING, MARINE & LOGISTICS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Rigs.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-caf48879",
+      "title": "Marine Logistics and Offshore Supply.",
+      "division": "crude-lifting-marine-logistics",
+      "description": "Marine Logistics and Offshore Supply. under the ADALIA CRUDE LIFTING, MARINE & LOGISTICS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Rigs.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-ce28a113",
+      "title": "Storage and Terminal Operations.",
+      "division": "crude-lifting-marine-logistics",
+      "description": "Storage and Terminal Operations. under the ADALIA CRUDE LIFTING, MARINE & LOGISTICS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Rigs.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-9ef20833",
+      "title": "LPG Supply and Distribution.",
+      "division": "gas",
+      "description": "LPG Supply and Distribution. under the ADALIA GAS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Pipes.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-0bb7743f",
+      "title": "CNG Supply for Vehicles and Industries.",
+      "division": "gas",
+      "description": "CNG Supply for Vehicles and Industries. under the ADALIA GAS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Pipes.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-2e98868c",
+      "title": "LNG Supply and Logistics.",
+      "division": "gas",
+      "description": "LNG Supply and Logistics. under the ADALIA GAS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Pipes.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-02116521",
+      "title": "Gas Plant Installation and Maintenance.",
+      "division": "gas",
+      "description": "Gas Plant Installation and Maintenance. under the ADALIA GAS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Pipes.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-ab4f58bf",
+      "title": "Gas Filling, Reticulation and Pipeline Support.",
+      "division": "gas",
+      "description": "Gas Filling, Reticulation and Pipeline Support. under the ADALIA GAS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Pipes.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-014360ec",
+      "title": "Gas Trading and Marketing.",
+      "division": "gas",
+      "description": "Gas Trading and Marketing. under the ADALIA GAS division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Pipes.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-11b43c69",
+      "title": "PMS, AGO, DPK, Base Oil and Lubricants.",
+      "division": "petroleum-supply",
+      "description": "PMS, AGO, DPK, Base Oil and Lubricants. under the ADALIA PETROLEUM SUPPLY division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Distributing Tank.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-eee19b81",
+      "title": "Bulk Supply and Nationwide Distribution.",
+      "division": "petroleum-supply",
+      "description": "Bulk Supply and Nationwide Distribution. under the ADALIA PETROLEUM SUPPLY division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Distributing Tank.jpg",
+      "verified": true
+    },
+    {
+      "id": "svc-mwrzuc04-587199e0",
+      "title": "Procurement and Logistics Support.",
+      "division": "petroleum-supply",
+      "description": "Procurement and Logistics Support. under the ADALIA PETROLEUM SUPPLY division of ADALIA OIL AND GAS LTD.",
+      "objectives": [
+        "Operational excellence through technical competence and quality delivery."
+      ],
+      "capabilities": [
+        "Qualified personnel and equipment",
+        "Compliance with applicable safety and quality standards"
+      ],
+      "image": "/images/Distributing Tank.jpg",
+      "verified": true
+    }
+  ],
+  "projects": [],
+  "compliance": [
+    {
+      "id": "cert-1-mwrzuc04-69cc76ac",
+      "title": "Certificate of Incorporation - ADALIA OIL AND GAS LTD",
+      "category": "CAC registration",
+      "authority": "Corporate Affairs Commission (Nigeria)",
+      "reference": "ADC-TEST-001",
+      "issueDate": null,
+      "expiryDate": null,
+      "status": "issued",
+      "verified": true,
+      "documentUrl": "",
+      "certificateId": "",
+      "note": "Requires verification of the Company Registration Number (RC) and the certificate document."
+    },
+    {
+      "id": "cert-2-mwrzuc04-5c7a0684",
+      "title": "Exploration License",
+      "category": "NUPRC permit",
+      "authority": "Nigerian Regulatory Commission for Oil and Gas Services",
+      "reference": "",
+      "issueDate": null,
+      "expiryDate": null,
+      "status": "application",
+      "verified": false,
+      "documentUrl": "",
+      "certificateId": "",
+      "note": "Whether exploration or production licenses are required for the advertised activities depends on jurisdiction. Verify with the applicable regulator before publication."
+    },
+    {
+      "id": "cert-3-mwrzuc04-c75e3667",
+      "title": "Company Compliance Licence / NMDPRA Licence",
+      "category": "NMDPRA licence",
+      "authority": "Nigerian National Petroleum Industry Regulatory Commission (NUPERC successor)",
+      "reference": "",
+      "issueDate": null,
+      "expiryDate": null,
+      "status": "application",
+      "verified": false,
+      "documentUrl": "",
+      "certificateId": "",
+      "note": "Verify applicability to the services offered with the regulator. Publication is pending verification."
+    },
+    {
+      "id": "cert-4-mwrzuc04-cbf0167d",
+      "title": "Environmental Impact Assessment Approval",
+      "category": "Environmental approval",
+      "authority": "National Environmental Standards and Regulations Enforcement Agency (NESREA)",
+      "reference": "",
+      "issueDate": null,
+      "expiryDate": null,
+      "status": "application",
+      "verified": false,
+      "documentUrl": "",
+      "certificateId": "",
+      "note": "Applicability depends on the scope of each activity. Verify before publication."
+    },
+    {
+      "id": "cert-5-mwrzuc04-949aed6d",
+      "title": "ISO 45001 Occupational Health and Safety Management System Certification",
+      "category": "Safety certification",
+      "authority": "International Organization for Standardization (ISO)",
+      "reference": "",
+      "issueDate": null,
+      "expiryDate": null,
+      "status": "not_submitted",
+      "verified": false,
+      "documentUrl": "",
+      "certificateId": "",
+      "note": "No safety certifications are presented as active until the company supplies verified evidence."
+    },
+    {
+      "id": "cert-6-mwrzuc04-0cf88062",
+      "title": "Other Industry Permits (e.g. contractor registration, state operating licences)",
+      "category": "Other permit",
+      "authority": "Various (state and industry bodies)",
+      "reference": "",
+      "issueDate": null,
+      "expiryDate": null,
+      "status": "application",
+      "verified": false,
+      "documentUrl": "",
+      "certificateId": "",
+      "note": "Each entry in this category is verified individually before being marked issued and published."
+    }
+  ],
+  "hsePolicies": [
+    {
+      "id": "hse-policy-mwrzuc04-e84477f8",
+      "title": "Health and Safety Policy",
+      "category": "Health and safety policy",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Adalia OIL AND GAS LTD is committed to providing a safe and healthy work environment for all personnel. This policy is signed by the management team and reviewed annually.\n\nObjectives:\n- Eliminate preventable injuries and work-related ill health.\n- Maintain a positive safety culture through leadership and accountability.\n- Ensure all hazards are identified, assessed and controlled before work begins.\n- Give every team member the authority to stop unsafe work without penalty.\n\nScope: This policy applies to all operations of Adalia OIL AND GAS LTD and all contractors working on Adalia sites. It is governed by the applicable HSE procedures and legal requirements.\n\nManagement commitment:\nAdalia senior management commits to making safety and health a core business objective, providing the necessary resources, and encouraging continuous improvement of safety performance."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-2f34f31a",
+      "title": "Environmental Protection Policy",
+      "category": "Environmental protection policy",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Adalia OIL AND GAS LTD is committed to minimising harm to the environment and protecting the communities we work in.\n\nObjectives:\n- Minimise the environmental footprint of all operations.\n- Prevent spills, leaks and emissions that could affect people or the environment.\n- Ensure all activities comply with applicable environmental legislation.\n- Incorporate environmental considerations into every design, procurement and operating decision.\n\nScope: This policy covers all Adalia activities, including surface and offshore operations, transport, storage and waste management. It applies to all contractors.\n\nCommitment:\nAdalia is responsible for environmental compliance, and every employee and contractor is responsible for reporting hazards and preventing pollution without delay."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-9742e4a5",
+      "title": "Workplace Safety Procedures",
+      "category": "Workplace safety procedures",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Adalia requires all personnel to follow approved safety procedures.\n\nKey requirements:\n- PPE must be worn where required for the activity and its risk assessment.\n- Work areas must be kept clean and free of trip hazards.\n- Tools and equipment must be inspected before use and only used as instructed.\n- Job Safety Analyses and Method Statements are required before high-risk work.\n- Emergency exits and assembly points must remain unobstructed at all times.\n- All incidents must be reported through the incident reporting procedure without fear of reprisal."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-065beb49",
+      "title": "Risk Assessment and Hazard Identification",
+      "category": "Risk assessment and hazard identification",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Risk assessments are required for all identified hazards that could cause injury, illness or loss.\n\nProcess:\n- Identify hazards and list the people affected.\n- Identify who might be harmed and how.\n- Evaluate risks and decide if a reasonable precaution should be used.\n- If the existing precautions are not enough, put better ones in place.\n- Review assessments whenever something changes in the workplace or an incident occurs.\n\nRecord keeping: completed assessments are signed and dated and reviewed with personnel working in the area.\n\nPrinciple: the 'worst credible case' determines the risk rating; hazard elimination is the first line of defence."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-8af2f3d3",
+      "title": "Emergency Preparedness and Response",
+      "category": "Emergency preparedness and response",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Adalia maintains an active emergency response capability.\n\nContents of the emergency plan:\n- Roles and responsibilities for managers, team leaders and safety officers during an emergency.\n- Emergency contact lists, including local emergency services numbers.\n- Evacuation procedures, assembly points and roll call arrangements.\n- Incident notification procedures to authorities and internal stakeholders.\n- Communication plans for customers and the community.\n\nPreparedness:\n- Emergency drills are conducted regularly.\n- Spare equipment and supplies are maintained in strategic locations.\n- All persons are trained on emergency response and evacuation."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-d586647b",
+      "title": "Incident Reporting Procedure",
+      "category": "Incident reporting",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "All Incidents must be reported promptly.\n\nDefinition: an incident is any unplanned event or near miss that did or could cause injury, illness, damage to property, damage to the environment, or interruption to business.\n\nProcedure:\n- Report immediately to the site manager or team leader.\n- Complete an incident report form, including date, time, location, people involved and a factual description of the event.\n- Do not disclose information to others not directly involved unless required by management.\n- Management investigates every incident within a set timeframe, identifies causes and takes corrective actions.\n- Investigation findings and lessons are recorded and shared with the team."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-da09d0c7",
+      "title": "Waste Management Policy",
+      "category": "Waste management",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Adalia will minimise and manage waste responsibly.\n\nRequirements:\n- Waste generated at every site is segregated into streams (e.g. hazardous, non-hazardous, recyclable) per applicable local regulations.\n- Waste is stored in approved containers with proper labelling and signs.\n- Waste consignment records (Manifests) are maintained where required by law.\n- Waste removal is only through licensed disposal facilities.\n- Site personnel and contractors are trained on waste handling.\n- Site management regularly reviews waste performance.\n\nObjective: Adalia aims for zero uncontrolled waste discharge and a reduction in waste generation year on year."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-d67564b4",
+      "title": "Pollution Prevention Policy",
+      "category": "Pollution prevention",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Adalia is committed to preventing pollution of the air, water and soil.\n\nMeasures:\n- No discharges, spills or releases may be made without proper permits and controls.\n- Spill prevention procedures are in place for fuel, lubricants and chemicals on sites.\n- Spill response equipment is available and maintained.\n- Engine room, storage and workshop areas are protected with drip trays, bunded areas or secondary containment.\n- Fluid leaks are corrected promptly.\n- Stormwater runoff from sites is treated to prevent contamination."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-cb61f20a",
+      "title": "Employee Safety Training",
+      "category": "Employee safety training",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Safety training keeps personnel safe.\n\nRequirements:\n- Induction training for every new employee, covering site orientation, hazard identification, PPE and emergency procedures.\n- Role-specific training as required by the work being performed (e.g. first aid, confined space, lifting, H2S awareness, forklift, crane operation).\n- Refresher training at regular intervals and after relevant incidents or changes.\n- Attendance and completion records are maintained for every training session.\n- Training effectiveness is reviewed through assessments or observation."
+    },
+    {
+      "id": "hse-policy-mwrzuc04-1a340782",
+      "title": "Contractor Safety Management",
+      "category": "Contractor safety management",
+      "version": "1.0",
+      "effectiveDate": "2026-11-22",
+      "status": "draft",
+      "verified": false,
+      "downloadable": false,
+      "documentUrl": "",
+      "content": "Contractors are managed under the same safety standards as our own personnel.\n\nProcess:\n- All contractors are pre-qualified through background, insurance and safety record checks.\n- Contractors receive site-specific safety induction and must sign a contractor safety declaration.\n- Contractor scope of work and safety plan is reviewed with the site manager before commencement.\n- Contractors must conform to all applicable site rules, HSE standards and local laws.\n- Contractors may be required to bring their own competent supervision and their own risks are managed under their own management system."
+    }
+  ],
+  "governanceDocs": [
+    {
+      "id": "gov-doc-mwrzuc05-5ce45fd3",
+      "title": "Code of Conduct",
+      "category": "Code of conduct",
+      "version": "1.0",
+      "effectiveDate": null,
+      "status": "draft",
+      "verified": false,
+      "documentUrl": "",
+      "content": "Adalia OIL AND GAS LTD expects every employee, contractor, supplier and partner to uphold the highest standards of personal and professional conduct.\n\nExpectations:\n- Act with integrity and honesty in all business and operational activities.\n- Respect colleagues, communities, regulators and all stakeholders.\n- Comply with all applicable laws and regulations.\n- Avoid conflicts of interest and disclose them when they arise.\n- Maintain confidentiality of all company information that is not intended for public disclosure.\n\nSanctions:\nNon-compliance may result in discipline up to and including termination of employment or contractual relationship."
+    },
+    {
+      "id": "gov-doc-mwrzuc05-bf2d19f8",
+      "title": "Anti-Bribery and Anti-Corruption Policy",
+      "category": "Anti-bribery and anti-corruption policy",
+      "version": "1.0",
+      "effectiveDate": null,
+      "status": "draft",
+      "verified": false,
+      "documentUrl": "",
+      "content": "Adalia OIL AND GAS LTD does not tolerate bribery, corruption or any form of facilitation payment.\n\nStandards:\n- Never offer, promise or make any payment that is intended to influence the decision of a public official or any person in a position of authority.\n- Never accept any form of gift, entertainment, loan or advantage that is offered or received as an inducement in business transactions.\n- All expenditure must follow approved internal procedures and procurement policies.\n\nCompliance:\nThe entire workforce and contractors must comply with this policy. Any breach must be reported through the whistleblowing procedure. Adalia may report to the International Anti-Corruption Coordinating Group (IACCG), the ICACR, the ICJ and the EFCC as required by law and regulation."
+    },
+    {
+      "id": "gov-doc-mwrzuc05-f9216555",
+      "title": "Conflict of Interest Policy",
+      "category": "Conflict of interest policy",
+      "version": "1.0",
+      "effectiveDate": null,
+      "status": "draft",
+      "verified": false,
+      "documentUrl": "",
+      "content": "Adalia OIL AND GAS LTD requires every employee, contractor, director and partner to act independently and act in the best interests of the company.\n\nExamples of a conflict of interest include:\n- Benefits derived from third parties that may affect a decision (e.g. shell companies).\n- Engagement or investments in other organisations that compete with or substantially affect the company.\n- Ability to access confidential company information due to personal relationships.\n\nProcess:\nIf a conflict exists, the person must disclose it to management or the Board within a set timeframe. Disclosures do not disqualify a person if the conflict is not managed or resolved. Management decides if a person continues to participate. This process continues if there is a discrepancy between what the person tells Adalia and what is reported to Adalia in connection with fluctuating international currency rates or event-based time schedules."
+    },
+    {
+      "id": "gov-doc-mwrzuc05-05eabbb4",
+      "title": "Ethical Business Practices",
+      "category": "Ethical business practices",
+      "version": "1.0",
+      "effectiveDate": null,
+      "status": "draft",
+      "verified": false,
+      "documentUrl": "",
+      "content": "Adalia OIL AND GAS LTD is committed to fair, honest and ethical business practices.\n\nStandards:\n- Honest communication and transparency in all business deals.\n- Fair treatment of all stakeholders: employees, contractors, clients, partners and communities.\n- Ethical conduct by all employees, including timely and honest completion of performance reviews.\n- Respect for human rights in operations and supply chains.\n- Responsible and constructive behaviour during any dispute or uncertainty."
+    },
+    {
+      "id": "gov-doc-mwrzuc05-9fabd3c9",
+      "title": "Whistleblowing and Reporting Procedure",
+      "category": "Whistleblowing and reporting procedure",
+      "version": "1.0",
+      "effectiveDate": null,
+      "status": "draft",
+      "verified": false,
+      "documentUrl": "",
+      "content": "Any employee, contractor or associate who believes there has been a serious violation of the Code of Conduct or anti-corruption policy is encouraged to report it.\n\nReporting channels (all treated as confidential where possible):\n- Direct to management and the Board of Directors through established channels.\n- Reporting to the International Anti-Corruption Coordinating Group (IACCG), the ICACR, the ICJ or the EFCC as required by law.\n- Anonymous hotlines and email addresses where available.\n\nGuarantees:\nAdalia prohibits retaliation against anyone in good faith who raises concerns. All reports are reviewed confidentially and professionally. The identity of the reporter will not be disclosed unless legally required."
+    },
+    {
+      "id": "gov-doc-mwrzuc05-99263839",
+      "title": "Supplier and Contractor Conduct Requirements",
+      "category": "Supplier and contractor conduct requirements",
+      "version": "1.0",
+      "effectiveDate": null,
+      "status": "draft",
+      "verified": false,
+      "documentUrl": "",
+      "content": "Suppliers and contractors to Adalia must uphold the same standards of integrity, safety and ethics as our own team.\n\nRequirements:\n- Ensure supplies and services comply with applicable laws and regulations.\n- Keep accurate records of invoices and receipts and support genuine quotation documents.\n- Comply with payment terms and process all invoices correctly and without delay.\n- Treat suppliers and end clients with respect and value their business.\n- Promptly report any breach of law or ethical standards that affects Adalia.\n\nExpectations:\nSuppliers and contractors must demonstrate a track record of honesty and reliability, including compliance with applicable tax obligations, return for unsold goods, correct invoices, warranties, return policies and cost constraints."
+    },
+    {
+      "id": "gov-doc-mwrzuc05-c935dda8",
+      "title": "Corporate Responsibility",
+      "category": "Corporate responsibility",
+      "version": "1.0",
+      "effectiveDate": null,
+      "status": "draft",
+      "verified": false,
+      "documentUrl": "",
+      "content": "Adalia OIL AND GAS LTD is committed to contributing positively to the communities and regions we operate in.\n\nInitiatives:\n- Respect and protection of human rights, in line with UN Guiding Principles on Business and Human Rights.\n- Contributions to the development of communities where we operate.\n- Partnership with relevant stakeholders including local government agencies, community leaders and local industry bodies.\n- Continued investment in skills development, training and CSR programmes.\n- Promotion of the use of local colours, local logistics and local cryogenics for the use of local resources.\n\nObjective: Adalia considers corporate responsibility part of our sustainable growth strategy and long-term success.\n\nLimit: The company will review and revise this policy periodically to ensure it meets changes in internal, legal and social factors."
+    }
+  ],
+  "supplierRegistrations": [],
+  "enquiries": [],
+  "activity": []
+}
