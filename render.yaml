@@ -21,7 +21,10 @@ services:
     plan: standard
     branch: main
     # Build command (Render runs this before starting the service):
-    buildCommand: npm install && npm run build
+    # --include=dev is required: next build loads next.config.ts and needs
+    # devDependencies (TypeScript) available; npm ci is the Render-safe,
+    # lockfile-consistent alternative to npm install.
+    buildCommand: npm ci --include=dev && npm run build
     # Start command (Render runs this after building):
     startCommand: npm start
     # Persistent disk: mount a Managed Disk and point ADALIA_DATA_DIR at it.
